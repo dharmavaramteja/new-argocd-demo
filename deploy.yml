@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: shaikmustafa/dm
+          image: nginx
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
